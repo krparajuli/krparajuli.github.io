@@ -124,11 +124,19 @@
       </div>
       <script type="text/javascript" src="{{ "/assets/js/darkmode.js" | relative_url }}"></script>
       {%- endif -%}
+
+      <a href="{{ site.url }}/about">About</a> | Blog | <a href="{{ site.url }}/resume">Resume</a>
     </section>
     <section class="content">
       {{ content }}
     </section>
   </main>
+
+
+
+
+
+
   {%- if site.plainwhite.analytics_id -%}
   <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.plainwhite.analytics_id }}"></script>
   <script>
