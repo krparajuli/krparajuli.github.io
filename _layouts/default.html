@@ -110,6 +110,19 @@
         </ul>
       </nav>
       {%- endif -%}
+      <nav class="navigation">
+        <ul class="col-md-6 col-sm-12">
+          <li>
+            <a href="{{ site.url }}/">Home</a>
+          </li>
+          <li>
+            <a href="{{ site.url }}/resume">Resume</a>
+          </li>
+          <li>
+            <a href="{{ site.url }}/posts">About</a>
+         </li>
+        </ul>
+      </nav>
       <p>&copy;
         {{ "now" | date: "%Y" }}</p>
       {%- if site.plainwhite.dark_mode -%}
@@ -124,18 +137,11 @@
       </div>
       <script type="text/javascript" src="{{ "/assets/js/darkmode.js" | relative_url }}"></script>
       {%- endif -%}
-
-      <a href="{{ site.url }}/about">About</a> | Blog | <a href="{{ site.url }}/resume">Resume</a>
     </section>
     <section class="content">
       {{ content }}
     </section>
   </main>
-
-
-
-
-
 
   {%- if site.plainwhite.analytics_id -%}
   <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.plainwhite.analytics_id }}"></script>
