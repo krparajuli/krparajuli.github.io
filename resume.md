@@ -1,3 +1,5 @@
 ---
-layout: resume
+layout: page
+title: RESUME
 ---
+### Work Experience
