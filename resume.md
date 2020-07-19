@@ -1,5 +1,5 @@
 ---
 layout: page
-title: RESUME
+title: Resume
 ---
 ### Work Experience
