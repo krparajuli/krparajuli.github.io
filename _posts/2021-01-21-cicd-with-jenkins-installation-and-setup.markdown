@@ -2,7 +2,7 @@
 layout: post
 title:  "CICD with Jenkins: Installation and Setup"
 date:   2021-01-21 21:03:36 -0500
-categories: CI/CD Jenkins Github
+categories: CI/CD Jenkins Git Version-Control
 ---
 
 Jenkins is a powerful CICD tool to automate different components of a software development. It includes testing, building and deploying a software. It is very flexible and the configurations and pipelines can also be version controlled. Thus, it is really easy to use within a corporation as is for individuals or small teams.
@@ -10,40 +10,11 @@ Jenkins is a powerful CICD tool to automate different components of a software d
 # Contents
  - [Installation](#installation) 
  - [Setup](#setup)
- - [Linking](#Linking)
+ - [Linking](#linking)
 
 ### Installation
 
 ### Setup
 
- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam placerat lectus fermentum efficitur auctor. Nulla nec nunc rutrum, luctus lectus sagittis, aliquet orci. Phasellus ultrices odio enim, vitae hendrerit justo imperdiet in. Vivamus aliquet turpis vel dolor ornare eleifend. Mauris laoreet volutpat ornare. In nec risus iaculis, viverra massa in, porta tortor. Aenean pretium ante ipsum, posuere ultrices eros fermentum ut. Morbi laoreet commodo magna. Proin consectetur est dolor, nec finibus quam blandit sit amet. Sed non porta risus. Quisque varius ex id sapien finibus vestibulum. Ut pharetra at tortor tempus elementum. Integer convallis diam in vehicula pellentesque. Sed vel mauris ut libero faucibus dictum. Nulla suscipit aliquam nisi, eu aliquet tortor placerat in.
-
-Suspendisse dapibus velit eu consequat sodales. Morbi varius, lorem eget facilisis porta, diam lacus condimentum nisi, sit amet mollis felis metus sit amet odio. Nam dictum tellus ex, vel rhoncus velit ultrices sit amet. Morbi at lacus mauris. Etiam at tristique nulla. Donec scelerisque accumsan nibh, ut rutrum nibh venenatis non. Curabitur varius tempus tortor, eu gravida felis semper sit amet. Ut congue eros nec magna rutrum efficitur. Nunc vel orci et dolor cursus cursus. Nam in libero ultricies, commodo diam sed, lacinia leo. Nunc ac dolor semper, mattis odio non, lobortis leo. Sed bibendum, ipsum id cursus feugiat, est turpis accumsan mi, congue luctus neque ante ac nunc. Ut bibendum arcu quis ipsum finibus, id commodo dui congue.
-
-Aenean posuere urna et porta posuere. Vivamus luctus aliquam ipsum ac ultricies. Sed euismod elit sed egestas cursus. Donec bibendum accumsan placerat. Cras aliquam auctor egestas. Mauris vel augue at orci pharetra elementum vel sed arcu. Sed vestibulum orci turpis, a ullamcorper nunc sagittis sed. Sed condimentum tortor vitae volutpat commodo. Integer ac justo et justo porta faucibus eget et lacus. Praesent sollicitudin quam et ipsum scelerisque consequat. Etiam porttitor mauris vitae odio accumsan, at vehicula lorem efficitur. Nulla sit amet elementum arcu. Curabitur tempus, enim quis porttitor tempus, leo nunc sagittis justo, a pellentesque dolor sapien nec erat. Aliquam placerat condimentum nunc egestas sollicitudin. Nullam molestie dictum venenatis. Curabitur luctus odio turpis, ac pellentesque arcu tincidunt vel.
-
-Nullam elementum tincidunt felis quis maximus. Sed feugiat quis risus in scelerisque. Cras sit amet mollis justo, vitae dignissim eros. Quisque vehicula leo ex, non dapibus eros vehicula ac. Sed sit amet laoreet justo. Suspendisse sed mattis neque. Nunc at pharetra neque.
-
-Suspendisse eget feugiat sapien. Cras gravida congue massa eu ultrices. Donec semper pretium tortor, non efficitur est scelerisque pulvinar. Praesent molestie, tellus ac pulvinar scelerisque, nisi metus convallis magna, quis auctor mi arcu a nisl. Praesent faucibus in nulla vitae malesuada. Suspendisse feugiat, dolor at ullamcorper commodo, orci sapien lacinia mauris, sit amet interdum velit ipsum pretium felis. Nullam vel urna non nibh facilisis accumsan quis non sapien. Aliquam bibendum nulla vitae semper tincidunt. Curabitur sit amet turpis quis magna imperdiet efficitur ut quis magna. Donec aliquet arcu in augue tristique porta. Maecenas arcu nunc, molestie vel vulputate et, ultrices quis tellus. Sed vestibulum nibh a libero mattis, at ornare nisl dignissim. Nulla et auctor libero, scelerisque facilisis lacus. Vivamus vulputate feugiat turpis quis blandit. In hac habitasse platea dictumst.
-
-Mauris vitae semper elit. Nullam quis metus eget sapien fermentum sollicitudin. Curabitur sodales lorem non scelerisque maximus. Integer a velit id nibh rutrum bibendum. Fusce pretium pellentesque metus, vitae ultrices neque faucibus auctor. Suspendisse suscipit nibh vitae metus scelerisque, nec tristique augue volutpat. Proin eu turpis dolor. Aliquam nulla ante, molestie eu condimentum quis, faucibus eu est. Suspendisse porta magna sit amet semper egestas. Suspendisse a diam quis sapien rutrum varius ut eget dolor. In interdum leo a consectetur dignissim. Nunc dignissim viverra enim, in mattis dui facilisis sit amet. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nullam sed dapibus leo. Nam luctus tortor facilisis sem imperdiet cursus.
-
-In ultricies sit amet sem quis viverra. Praesent aliquet nisi sit amet enim sagittis, sed semper ex aliquam. Curabitur pellentesque volutpat metus, sed tristique metus vehicula vitae. Vestibulum finibus blandit nisl sed tristique. Fusce sed viverra sapien, non bibendum orci. In sodales sodales felis lacinia molestie. Maecenas vulputate pretium metus a ornare. Integer consectetur aliquet nisi a pellentesque. Sed tempus pulvinar massa, a euismod arcu iaculis ut. Vivamus elementum scelerisque lectus at euismod. Vestibulum ullamcorper mi sed dui vestibulum posuere. Duis iaculis urna sit amet purus dictum viverra. Phasellus euismod lorem vitae turpis laoreet, fringilla ullamcorper massa congue. Nam blandit neque sed massa lacinia condimentum. Cras vehicula sed lorem consequat congue.
-
-Curabitur fermentum condimentum dui, vel ornare libero consectetur quis. Mauris condimentum lobortis risus, et interdum urna congue vel. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ut viverra quam. Quisque faucibus ligula vel libero ullamcorper bibendum. Duis vitae feugiat enim, et cursus ante. Nunc eu luctus tellus.
-
-Cras commodo, ex eu viverra commodo, dui nisi fringilla dui, eget consectetur mi erat id ante. Aenean quis magna eget lacus mollis bibendum vel eu sem. Nulla porta ex nec odio finibus, at porta arcu dictum. Nullam a neque erat. Sed augue diam, eleifend et est sed, iaculis vulputate nulla. Praesent hendrerit aliquet nisi, sit amet rhoncus odio luctus a. Pellentesque hendrerit condimentum enim non sodales. Sed eget dictum velit, et feugiat risus. Duis interdum ornare libero id vestibulum. Donec commodo porttitor justo, at condimentum quam lobortis ornare. Suspendisse ultricies magna quis tortor imperdiet interdum. Maecenas iaculis dui non dui bibendum pulvinar.
-
-Sed quis lacus est. Donec rutrum id felis non vehicula. Integer accumsan in massa commodo fringilla. Nam rhoncus semper ante ac faucibus. Vivamus venenatis fermentum sodales. Curabitur feugiat, nibh malesuada mattis laoreet, magna enim commodo sapien, eu tempus ipsum elit eu tortor. Nulla malesuada lacinia venenatis. Aliquam euismod, erat luctus fermentum feugiat, turpis augue venenatis metus, lobortis placerat arcu elit et tortor. Morbi fringilla justo a venenatis faucibus. Suspendisse nec est gravida, faucibus elit non, consectetur tortor.
-
-Duis vulputate metus mattis arcu tempus lacinia quis ac nibh. In hac habitasse platea dictumst. Etiam interdum commodo euismod. Ut egestas tempus dui ac tristique. Nullam posuere mi ac augue tristique vehicula. Praesent mattis porttitor augue non vehicula. Aliquam ac lacinia nulla.
-
-Vivamus non mi vitae nisl ornare faucibus. Aliquam mi nisl, luctus ac rutrum pharetra, pharetra sit amet felis. Morbi eleifend egestas lorem, vitae venenatis quam eleifend vel. Aliquam erat volutpat. Vivamus eget tellus pellentesque, pretium lectus sit amet, interdum sapien. Nullam vulputate, velit nec posuere mattis, magna lectus dictum quam, ac malesuada nunc ipsum in mi. Nullam velit lorem, venenatis vitae enim quis, mattis blandit leo. Proin tempor urna id quam eleifend ultrices. Donec in eros pellentesque, ultricies enim eget, fermentum dolor. Morbi convallis suscipit rutrum. Mauris non posuere ipsum, nec porttitor lacus. Nulla elementum mi urna, ut porta metus bibendum in. Aliquam facilisis ipsum massa, tempus accumsan eros dignissim quis. Morbi ultricies eleifend rhoncus.
-
-Donec scelerisque finibus enim ut tincidunt. Maecenas sed venenatis eros, sit amet porttitor felis. Vivamus sagittis luctus diam, at iaculis sapien bibendum vel. Phasellus sed sollicitudin arcu, nec lacinia neque. Nunc sed eros sit amet sapien viverra pellentesque nec nec nulla. Fusce quis velit volutpat, hendrerit sem quis, lacinia quam. Nulla consectetur dui nibh, eu laoreet orci sagittis in. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Suspendisse ut suscipit nibh, nec eleifend sem.
-
-Nullam aliquam lacinia vulputate. Vestibulum sed volutpat massa. Nulla id neque nec sapien scelerisque tincidunt. Duis porttitor dui id sollicitudin bibendum. Sed porta accumsan turpis vel vehicula. Morbi eu purus elementum, ornare mauris quis, dictum leo. Donec sed vulputate turpis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Mauris mollis pulvinar lacinia. Pellentesque sollicitudin, justo interdum sodales dignissim, odio tortor sodales ipsum, sit amet vestibulum quam dui sit amet purus. Morbi consequat vitae leo et maximus. Suspendisse mollis risus eget leo varius, ac semper enim luctus. In mattis, risus vitae sodales tempus, nisl dolor sodales elit, eu congue nulla dui ut ligula.
-
-Pellentesque finibus ornare odio at tincidunt. Do
 
 ### Linking
