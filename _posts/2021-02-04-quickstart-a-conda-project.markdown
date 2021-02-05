@@ -21,7 +21,7 @@ Python offers different options for environment management with Pip, Virtualenv,
 ### Setup
 Fork the [conda-starter https://github.com/krparajuli/conda-starter](https://github.com/krparajuli/conda-starter) project into your github followed by cloning into your local machine. Alternatively, download and unzip it to your machine.
 
-If you do not wish to fork or download this repo, you can create a project folder (example: named `conda-started`). Go inside the folder and create a yaml file (example: named `conda-environment,yaml`). Put the following lines into the yaml file. 
+If you do not wish to fork or download this repo, you can create a project folder (example: named `conda-started`). Go inside the folder and create a yaml file (example: named `conda-environment.yaml`). Put the following lines into the yaml file. 
 
 ```
   name: conda-starter
@@ -46,7 +46,6 @@ Initialize the conda environment.
     conda env create --prefix ./conda-env --file conda-environment.yml
 ```
 
----
 ### Activating and Working
 
 To start working on the project, get into the project folder and activate the project conda environment
