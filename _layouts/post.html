@@ -19,7 +19,10 @@ layout: default
   <div class="post">
     {{ content }}
   </div>
-  {%- if site.disqus_shortname -%}
+  <hr />
+  {%- if page.author -%} By {{ page.author }} {%- endif -%}
+  <br />
+  {%- if site.disqus_shortname and page.comments -%}
   <div id="disqus_thread" style="margin-top:25px"></div>
   <script>
     var disqus_config = function () {

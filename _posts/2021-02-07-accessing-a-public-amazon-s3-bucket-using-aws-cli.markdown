@@ -1,8 +1,10 @@
 ---
 layout: post
 title:  "Accessing a public amazon S3 bucket using AWS CLI"
+author: Kalyan Parajuli
 date:   2021-02-07 18:00:00 -0500
 categories: AWS Amazon S3 Bucket CLI
+comments: true
 ---
 
 

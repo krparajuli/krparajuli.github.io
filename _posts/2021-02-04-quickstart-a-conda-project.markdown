@@ -1,8 +1,10 @@
 ---
 layout: post
 title:  "Quickstart a Python Conda Project"
+author: Kalyan Parajuli
 date:   2021-02-04 23:15:00 -0500
 categories: Python Conda Project Start Quickstart
+comments: true
 ---
 
 
