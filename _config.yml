@@ -5,7 +5,8 @@ description: > # this means to ignore newlines until "show_exerpts:"
   All about me and my interests...
 show_excerpts: true # set to true to show excerpts on the homepage
 
-disqus_shortname: krparajuli-com
+commentbox:
+  id: ${{ secrets.COMMENTBOX_ID }}    #set in github repo environment
 
 # Minima date format
 # refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
@@ -22,8 +23,8 @@ plainwhite:
 
   # generate social links in footer
   social_links:
-    twitter: ParajuliKalyan
-    github:  kalyanrparajuli
+    twitter: Kal1RP
+    github:  krparajuli
     linkedIn: in/kalyanrparajuli
     # rss: rss
     # dribbble: jekyll
