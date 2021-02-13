@@ -5,8 +5,7 @@ description: > # this means to ignore newlines until "show_exerpts:"
   All about me and my interests...
 show_excerpts: true # set to true to show excerpts on the homepage
 
-commentbox:
-  id: ${{ secrets.COMMENTBOX_ID }}    #set in github repo environment
+commentbox: true    #set in github repo environment
 
 # Minima date format
 # refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
