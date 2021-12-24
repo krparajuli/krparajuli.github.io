@@ -1,4 +1,4 @@
-title: Kalyan Parajuli | Data Engineer, Solutions Architect, Software Engineer
+title: Kalyan Parajuli | Cybersecurity Student @ Carnegie Mellon University
 author: Kalyan Parajuli
 email: kalyanrparajuli@gmail.com
 description: > # this means to ignore newlines until "show_exerpts:"
@@ -13,11 +13,11 @@ sass:
   sass_dir: _sass
 plainwhite:
   name: Kalyan Parajuli
-  tagline: Data Engineer. Solutions Architect.
+  tagline: Information Security MS Student @ Carnegie Mellon University
   date_format: "%b %-d, %Y"
   sitemap: true # set to true to generate sitemap.xml content
   search: true # set to true to enable searchbar
-  dark_mode: false # set to true to add dark mode toggle
+  dark_mode: true # set to true to add dark mode toggle
   html_lang: "en" # set the lang attribute of the <html> tag for the pages. See here for a list of codes: https://www.w3schools.com/tags/ref_country_codes.asp
 
   # generate social links in footer
