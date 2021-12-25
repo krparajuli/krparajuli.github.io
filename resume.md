@@ -6,8 +6,8 @@ title: Resume
 
 <i class="fa fa-phone" aria-hidden="true"> (860) 461-4999</i>          <i class="fa fa-envelope" aria-hidden="true"> kalyanrparajuli@gmail.com</i>
 
-## Experiences
-### Software Engineer<br />
+# Experiences
+# Software Engineer
 **Cigna Inc.** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Broomfield, CT
 <br />Oct 2019 - July 2021
 <br />
