@@ -62,20 +62,26 @@ CMS and Custom Websites Development:
 - A100 Certified Full Stack Web Developer
 <br />*Apprentice 100, IndieSoft Inc.*
 # PROJECTS
-Secure Cloud Biometric Authentication
-• Worked on Cloud Authentication with Iris Images on mobile devices protecting from compromise of either the server or the device
-• Blinded bio-feature data with asymmetric keys requiring both server and device com- promise for data compromise; Used C++ & OpenGL
-Elliptic Curve Digital Signature Algorithm
-• Implemented ECDSA in Java using NIST Recommended Curve P-192 according to the standards in P182-6 published by NIST
-Notable Class Projects
-• Wrote custom Dynamic Memory Allocator (malloc) using segregated lists & low overhead
-• Built multi-threaded caching Web Proxy
-• Wrote threaded multi-process shell program
+**Secure Cloud Biometric Authentication**
+- Worked on Cloud Authentication with Iris Images on mobile devices protecting from compromise of either the server or the device
+- Blinded bio-feature data with asymmetric keys requiring both server and device com- promise for data compromise; Used C++ & OpenGL
+
+
+**Elliptic Curve Digital Signature Algorithm**
+- Implemented ECDSA in Java using NIST Recommended Curve P-192 according to the standards in P182-6 published by NIST
+
+**Notable Class Projects**
+- Wrote custom Dynamic Memory Allocator (malloc) using segregated lists & low overhead
+- Built multi-threaded caching Web Proxy
+- Wrote threaded multi-process shell program
 with signal handlers, pipes & IO redirections
 # SKILLS
-Languages: Java, C#, JavaScript, Python, C, C++, Bash, Scala, SQLs, noSQLs, Android Infrastructures: Docker, Jenkins, Vault, Terraform, Kubernetes, OpenShift
+**Languages:**  Python, C, C++, Bash, Java, C#, JavaScript, Scala, SQL Databases, noSQL Databases, Android
+<br />**Infrastructures:** Docker, Jenkins, Vault, Terraform, Kubernetes, OpenShift
 # LEADERSHIP ROLES
-InfoSec Mentor @ gajabaar.io [2020-Now] Vice-President @ Trinity iHouse [2017-18] International Student Representative @ TC Multicultural Affairs Council [2017-18] Volunteer Soccer Coach [2016-21]
+**InfoSec Mentor** @ gajabaar.io [2020-Now]
+<br />**Vice-President** @ Trinity International Students House [2017-18]
+<br /> **International Student Representative** @ Trinity College Multicultural Affairs Council [2017-18] 
 
 
 
