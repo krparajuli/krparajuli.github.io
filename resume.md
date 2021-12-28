@@ -4,7 +4,9 @@ title: Resume
 ---
 [Download PDF here]({{ "/Kalyan Parajuli - Resume.pdf" | relative_url }} )
 
-<i class="fa fa-phone" aria-hidden="true"> (860) 461-4999</i>          <i class="fa fa-envelope" aria-hidden="true"> kalyanrparajuli@gmail.com</i>
+<i class="fa fa-envelope" aria-hidden="true"> [kalyanrparajuli@gmail.com](mailto:kalyanrparajuli@gmail.com)</i>
+<br />
+<i class="fa fa-github" aria-hidden="true">[krparajuli](https://github.com/krparajuli)</i>          <i class="fa fa-linkedin" aria-hidden="true"> [in/krparajuli](https://www.linkedin.com/in/krparajuli/)</i>  
 
 # Education
 Master of Science In Information Security (MSIS) - **Carnegie Mellon University**
@@ -81,19 +83,4 @@ with signal handlers, pipes & IO redirections
 # LEADERSHIP ROLES
 **InfoSec Mentor** @ gajabaar.io [2020-Now]
 <br />**Vice-President** @ Trinity International Students House [2017-18]
-<br /> **International Student Representative** @ Trinity College Multicultural Affairs Council [2017-18] 
-
-
-
-
-<!-- ---
-###  EXPERIENCE
-Software Engineering Consultant @ Cigna | **Galax.E Solutions Inc.**<br />
-<i class="fa fa-calendar" aria-hidden="true"></i>  Oct 2019 - Present
-          <i class="fa fa-map-marker" aria-hidden="true"></i>  Hartford, CT
-
----
-### EDUCATION
-
----
-### PROJECTS -->
+<br /> **International Student Representative** @ Trinity College Multicultural Affairs Council [2017-18]
