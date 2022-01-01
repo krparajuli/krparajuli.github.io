@@ -51,8 +51,7 @@ NIST Compliance - communicating with development and testing teams
 - Fixed bugs, memory leak and race-condition in networked devices discovery and management software controlling lighting devices in the LAN
 
 Co-founder, Web Developer - **Bwingle Web Solutions** 
-<br />Feb 2012-May 2014 Kathmandu, Nepal
-CMS and Custom Websites Development:
+<br />Feb 2012-May 2014 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Kathmandu, Nepal
 - Designed custom websites using Python Django framework & mySQL
 - Built, deployed and maintained tailored WordPress and Drupal websites for small businesses and provided support
 
@@ -63,6 +62,7 @@ CMS and Custom Websites Development:
 - AWS Certified Solutions Architect (Feb 2019 - Feb 2021)<br />*Amazon Web Services*
 - A100 Certified Full Stack Web Developer
 <br />*Apprentice 100, IndieSoft Inc.*
+
 # PROJECTS
 **Secure Cloud Biometric Authentication**
 - Worked on Cloud Authentication with Iris Images on mobile devices protecting from compromise of either the server or the device
@@ -78,9 +78,9 @@ CMS and Custom Websites Development:
 - Wrote threaded multi-process shell program
 with signal handlers, pipes & IO redirections
 # SKILLS
-**Languages:**  Python, C, C++, Bash, Java, C#, JavaScript, Scala, SQL Databases, noSQL Databases, Android
+**Languages:**  Python, C, C++, Bash, Java, C#, JavaScript, Scala, SQL Databases, noSQL Databases
 <br />**Infrastructures:** Docker, Jenkins, Vault, Terraform, Kubernetes, OpenShift
 # LEADERSHIP ROLES
-**InfoSec Mentor** @ gajabaar.io [2020-Now]
+**InfoSec Mentor** @ [gajabaar.io](https://gajabaar.io) [2020-Now]
 <br />**Vice-President** @ Trinity International Students House [2017-18]
 <br /> **International Student Representative** @ Trinity College Multicultural Affairs Council [2017-18]
