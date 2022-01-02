@@ -4,7 +4,7 @@ title: Resume
 ---
 [Download PDF here]({{ "/Kalyan Parajuli - Resume.pdf" | relative_url }} )
 
-<i class="fa fa-envelope" aria-hidden="true"> [kalyanrparajuli@gmail.com](mailto:kalyanrparajuli@gmail.com)</i>
+<i class="fa fa-envelope" aria-hidden="true"> [kalyanrparajuli@gmail.com](mailto:kalyanrparajuli@gmail.com)</i>
 <br />
 <i class="fa fa-github" aria-hidden="true"> [krparajuli](https://github.com/krparajuli)</i>          <i class="fa fa-linkedin" aria-hidden="true"> [in/krparajuli](https://www.linkedin.com/in/krparajuli/)</i>  
 
