@@ -3,9 +3,7 @@ layout: page
 title: About Me
 categories:
 ---
-I am an inquisitive and enthusiastic Software and Data Engineer - well versed in
-Object-Oriented Programming and Unix Systems. I am also an AWS certified
-Solutions Architect and a Certified Web Developer.
+I am an inquisitive and enthusiastic engineer currently doing my Masters in Information Security. I am interestes ins Secure Software Engineering and Penetration Testing. Previously I have worked as a Software and Business Intelligence Engineer and have experiences in various programming languages, programming paradigm, cloud technologies and frameworks. I am also an AWS Certified Solutions Architect and a Certified Web Developer.
 
 Feel free to contact me at
-[kalyanrparajuli@gmail.com](mailto:kalyanrparajuli@gmail.com).
+[kalyanrparajuli@gmail.com](mailto:kalyanrparajuli@gmail.com) or [krparajuli@cmu.edu](mailto:krparajuli@cmu.edu).
