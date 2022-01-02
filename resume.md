@@ -10,14 +10,14 @@ title: Resume
 
 # EDUCATION
 Master of Science In Information Security (MSIS) - **Carnegie Mellon University**
-<br />Aug 2021-Dec 2022 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Pittsburgh, PA
+<br />Aug 2021-Dec 2022 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Pittsburgh, PA]
 - Network Forensics: Examining, understanding, exploiting networks and analyzing forensically
 - Applied Information Assurance: Building, exploiting, and hardening vulnerable systems
 - Intro to Information Security: Performing CTFs and cryptographic cracking w/ writeups
 - Intro to Comp. Systems: Performed Reverse Engineering, Buffer Overflow and ROP attacks
 
 Bachelor of Science in Computer Science & in Mathematics - **Trinity College**
-<br /> Sep 2014-May 2018 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Hartford, CT
+<br /> Sep 2014-May 2018 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Hartford, CT]
 <br />
 Courses: Computer Security, Networks, Computer Systems, Operating Systems, Parallel Computing, Analysis of Algorithms
 
@@ -28,15 +28,14 @@ Oct 2019 - July 2021 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Broomfield, CT]
 - Built a Python listener application orchestrating different Cigna processes on
 RHEL, AIX and Windows machines on demand or on schedules
 - Implemented Vault, Cyrus-SASL and GSSAPI for SSO and authentication with Kafka for inter-process messaging. Deployed using Openshift
-- Managed and enhanced security and speed of deployments and pipelines of
-various projects with Jenkins, groovy scripts and shell scripts
+- Managed and enhanced security and speed of deployments and pipelines of various projects with Jenkins, groovy scripts and shell scripts
 - Analyzed source code using Veracode Scan and Bandit scan
 - Managed credentials retrievals and updates with Vault HTTP API
 - Initiated and collaborated on multiple POC projects involving improvement security, design, data presentation and documentations
 - Wrote scripts/applets to automate routine tasks requiring low creative input
 
 Business Intelligence Developer - **TicketNetwork Inc.**
-<br /> Sep 2018-Oct 2019 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; South Windsor, CT
+<br /> Sep 2018-Oct 2019 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [South Windsor, CT]
 - Provisioned and managed systems and clusters in AWS for highly available
 web services, databases, storage and backups with Terraform & Kubernetes
 - Issued and supervised user & process access roles and rights with IAM Tool
@@ -46,13 +45,13 @@ existing one in TN ticket retrieval application reducing AWS costs by 6%
 - Determined and initiated plans to implement better architecture and algorithm solutions for fast, secure and economic use of infrastructures
 
 Software Engineering Intern - **Acuity Brands Inc.**
-<br />May 2017-Aug 2017 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; New Haven, CT
+<br />May 2017-Aug 2017 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [New Haven, CT]
 - Led the implementation of SHA1 hashes in Acuity Brands applications for
 NIST Compliance - communicating with development and testing teams
 - Fixed bugs, memory leak and race-condition in networked devices discovery and management software controlling lighting devices in the LAN
 
 Co-founder, Web Developer - **Bwingle Web Solutions** 
-<br />Feb 2012-May 2014 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Kathmandu, Nepal
+<br />Feb 2012-May 2014 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Kathmandu, Nepal]
 - Designed custom websites using Python Django framework & mySQL
 - Built, deployed and maintained tailored WordPress and Drupal websites for small businesses and provided support
 
