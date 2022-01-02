@@ -3,4 +3,4 @@ layout: page
 title: Blog
 categories:
 ---
-Yoyo
+This is the blog.
