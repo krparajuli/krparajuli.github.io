@@ -3,7 +3,9 @@ layout: page
 title: Resume
 ---
 <style>
-
+heading {
+    background: red;
+}
 </style>
 
 [Download PDF here]({{ "/Kalyan Parajuli - Resume.pdf" | relative_url }} )
@@ -12,7 +14,7 @@ title: Resume
 <br />
 <i class="fa fa-github" aria-hidden="true"> [krparajuli](https://github.com/krparajuli)</i>          <i class="fa fa-linkedin" aria-hidden="true"> [in/krparajuli](https://www.linkedin.com/in/krparajuli/)</i>  
 
-# EDUCATION
+## EDUCATION
 Master of Science In Information Security (MSIS) - **Carnegie Mellon University**
 <br />Aug 2021-Dec 2022 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Pittsburgh, PA]
 - Network Forensics: Examining, understanding, exploiting networks and analyzing forensically
@@ -25,7 +27,7 @@ Bachelor of Science in Computer Science & in Mathematics - **Trinity College**
 <br />
 Courses: Computer Security, Networks, Computer Systems, Operating Systems, Parallel Computing, Analysis of Algorithms
 
-# EXPERIENCES
+## EXPERIENCES
 Software Engineer - **Cigna Inc.**
 <br />
 Oct 2019 - July 2021 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Broomfield, CT]
@@ -59,14 +61,14 @@ Co-founder, Web Developer - **Bwingle Web Solutions**
 - Designed custom websites using Python Django framework & mySQL
 - Built, deployed and maintained tailored WordPress and Drupal websites for small businesses and provided support
 
-# CERTIFICATIONS
+## CERTIFICATIONS
 - Cyber Forensics and Incidence Response Certification (pursuing)
 <br />*Carnegie Mellon University*
 - AWS Certified Solutions Architect (Feb 2019 - Feb 2021)<br />*Amazon Web Services*
 - A100 Certified Full Stack Web Developer
 <br />*Apprentice 100, IndieSoft Inc.*
 
-# PROJECTS
+## PROJECTS
 **Secure Cloud Biometric Authentication**
 - Worked on Cloud Authentication with Iris Images on mobile devices protecting from compromise of either the server or the device
 - Blinded bio-feature data with asymmetric keys requiring both server and device com- promise for data compromise; Used C++ & OpenGL
@@ -80,11 +82,11 @@ Co-founder, Web Developer - **Bwingle Web Solutions**
 - Wrote threaded multi-process shell program
 with signal handlers, pipes & IO redirections
 
-# SKILLS
+## SKILLS
 **Languages:**  Python, C, C++, Bash, Java, C#, JavaScript, Scala, SQL Databases, noSQL Databases
 <br />**Infrastructures:** Docker, Jenkins, Vault, Terraform, Kubernetes, OpenShift
 
-# LEADERSHIP ROLES
+## LEADERSHIP ROLES
 **InfoSec Mentor** @ [gajabaar.io](https://gajabaar.io) [2020-Now]
 <br />**Vice-President** @ Trinity International Students House [2017-18]
 <br /> **International Student Representative** @ Trinity College Multicultural Affairs Council [2017-18]

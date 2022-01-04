@@ -64,4 +64,6 @@ class Solution:
             memo.append(memo[i-1]+memo[i-2])
         return memo[-1]
 ```
+Runtime: 24 ms, faster than 94.68% of Python3 online submissions for Climbing Stairs.
+Memory Usage: 14 MB, less than 91.11% of Python3 online submissions for Climbing Stairs.
 
