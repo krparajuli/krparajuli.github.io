@@ -14,7 +14,7 @@ heading {
 <br />
 <i class="fa fa-github" aria-hidden="true"> [krparajuli](https://github.com/krparajuli)</i>          <i class="fa fa-linkedin" aria-hidden="true"> [in/krparajuli](https://www.linkedin.com/in/krparajuli/)</i>  
 
-## EDUCATION
+### EDUCATION
 Master of Science In Information Security (MSIS) - **Carnegie Mellon University**
 <br />Aug 2021-Dec 2022 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Pittsburgh, PA]
 - Network Forensics: Examining, understanding, exploiting networks and analyzing forensically
