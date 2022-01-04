@@ -15,7 +15,6 @@ heading {
 <i class="fa fa-github" aria-hidden="true"> [krparajuli](https://github.com/krparajuli)</i>          <i class="fa fa-linkedin" aria-hidden="true"> [in/krparajuli](https://www.linkedin.com/in/krparajuli/)</i>  
 
 <div class="resume-category">
-
 ## EDUCATION
 Master of Science In Information Security (MSIS) - **Carnegie Mellon University**
 <br />Aug 2021-Dec 2022 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Pittsburgh, PA]
@@ -28,9 +27,7 @@ Bachelor of Science in Computer Science & in Mathematics - **Trinity College**
 <br /> Sep 2014-May 2018 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Hartford, CT]
 <br />
 Courses: Computer Security, Networks, Computer Systems, Operating Systems, Parallel Computing, Analysis of Algorithms
-
 </div>
-
 <div class="resume-category">
 
 ### EXPERIENCES
@@ -67,19 +64,12 @@ Co-founder, Web Developer - **Bwingle Web Solutions**
 - Designed custom websites using Python Django framework & mySQL
 - Built, deployed and maintained tailored WordPress and Drupal websites for small businesses and provided support
 
-</div>
-
-<div class="resume-category">
-
 ### CERTIFICATIONS
 - Cyber Forensics and Incidence Response Certification (pursuing)
 <br />*Carnegie Mellon University*
 - AWS Certified Solutions Architect (Feb 2019 - Feb 2021)<br />*Amazon Web Services*
 - A100 Certified Full Stack Web Developer
 <br />*Apprentice 100, IndieSoft Inc.*
-</div>
-
-<div class="resume-category">
 
 ### PROJECTS
 **Secure Cloud Biometric Authentication**
@@ -95,26 +85,11 @@ Co-founder, Web Developer - **Bwingle Web Solutions**
 - Wrote threaded multi-process shell program
 with signal handlers, pipes & IO redirections
 
-</div>
-
-<div class="resume-category">
-
 ### SKILLS
 **Languages:**  Python, C, C++, Bash, Java, C#, JavaScript, Scala, SQL Databases, noSQL Databases
 <br />**Infrastructures:** Docker, Jenkins, Vault, Terraform, Kubernetes, OpenShift
-
-</div>
-
-<div class="resume-category">
 
 ### LEADERSHIP ROLES
 **InfoSec Mentor** @ [gajabaar.io](https://gajabaar.io) [2020-Now]
 <br />**Vice-President** @ Trinity International Students House [2017-18]
 <br /> **International Student Representative** @ Trinity College Multicultural Affairs Council [2017-18]
-
-</div>
-
-<br />
-<br />
-<br />
-<br />  
