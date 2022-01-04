@@ -26,8 +26,7 @@ Bachelor of Science in Computer Science & in Mathematics - **Trinity College**
 <br /> Sep 2014-May 2018 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Hartford, CT]
 <br />
 Courses: Computer Security, Networks, Computer Systems, Operating Systems, Parallel Computing, Analysis of Algorithms
-</div>
-<div class="resume-category">
+
 
 ### EXPERIENCES
 Software Engineer - **Cigna Inc.**
