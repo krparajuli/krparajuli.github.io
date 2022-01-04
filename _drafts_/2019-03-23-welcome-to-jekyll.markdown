@@ -4,26 +4,55 @@ title:  "Pinned Post 1"
 date:   2019-03-23 21:03:36 +0530
 categories: Javascript NodeJS
 ---
-MASDN
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+75. Sort Colors [Medium]
 
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+Given an array nums with n objects colored red, white, or blue, sort them in-place so that objects of the same color are adjacent, with the colors in the order red, white, and blue.
 
+We will use the integers 0, 1, and 2 to represent the color red, white, and blue, respectively.
 
-```javascript
-const Razorpay = require('razorpay');
+You must solve this problem without using the library's sort function.
 
-let rzp = Razorpay({
-	key_id: 'KEY_ID',
-	secret: 'name'
-});
-
-// capture request
-rzp.capture(payment_id, cost)
-	.then(function (data) {
-		return 2;
-	})
+[https://leetcode.com/problems/sort-colors/](https://leetcode.com/problems/sort-colors/)
+```python
+class Solution(object):
+    def sortColors(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: None Do not return anything, modify nums in-place instead.
+        """
+        count = [0,0,0]
+        for i in nums:
+            count[i]+=1
+        for i in range(0, count[0]):
+            nums[i] = 0
+        for i in range(count[0],count[1]+count[0]):
+            nums[i] = 1
+        for i in range(count[0]+count[1], len(nums)):
+            nums[i] = 2
 ```
+     
+```python
+class Solution(object):
+    def sortColors(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: None Do not return anything, modify nums in-place instead.
+        """
+        lo1,hi1=0,0
+        for i in nums:
+            if i == 0:
+                nums[lo1]=0
+                lo1+=1
+                if hi1 >= lo1:
+                    nums[hi1]=1
+                hi1+=1
+            elif i == 1:
+                nums[hi1]=1
+                hi1+=1
+        for i in range(hi1,len(nums)):
+            nums[i]=2
+```
+        
+            
+

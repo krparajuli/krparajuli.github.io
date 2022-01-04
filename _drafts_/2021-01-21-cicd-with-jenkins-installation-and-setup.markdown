@@ -5,16 +5,27 @@ date:   2021-01-21 21:03:36 -0500
 categories: CI/CD Jenkins Git Version-Control
 ---
 
-Jenkins is a powerful CICD tool to automate different components of a software development. It includes testing, building and deploying a software. It is very flexible and the configurations and pipelines can also be version controlled. Thus, it is really easy to use within a corporation as is for individuals or small teams.
+46. Permutations
+Medium
 
-# Contents
- - [Installation](#installation) 
- - [Setup](#setup)
- - [Linking](#linking)
+Given an array nums of distinct integers, return all the possible permutations. You can return the answer in any order.
 
-### Installation
-
-### Setup
+https://leetcode.com/problems/permutations/
 
 
-### Linking
+```python
+class Solution(object):
+    def permute(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: List[List[int]]
+        """
+        arr = []
+        if len(nums) == 1:
+            return [nums]
+        for i in range(len(nums)):
+            for result in self.permute(nums[:i]+nums[i+1:]):
+                result.append(nums[i])
+                arr.append(result)
+        return arr
+```

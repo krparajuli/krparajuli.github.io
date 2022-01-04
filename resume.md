@@ -2,6 +2,10 @@
 layout: page
 title: Resume
 ---
+<style>
+
+</style>
+
 [Download PDF here]({{ "/Kalyan Parajuli - Resume.pdf" | relative_url }} )
 
 <i class="fa fa-envelope" aria-hidden="true"> [kalyanrparajuli@gmail.com](mailto:kalyanrparajuli@gmail.com)</i>
