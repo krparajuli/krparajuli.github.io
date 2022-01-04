@@ -63,11 +63,9 @@ Co-founder, Web Developer - **Bwingle Web Solutions**
 - Built, deployed and maintained tailored WordPress and Drupal websites for small businesses and provided support
 
 ### CERTIFICATIONS
-- Cyber Forensics and Incidence Response Certification (pursuing)
-<br />*Carnegie Mellon University*
-- AWS Certified Solutions Architect (Feb 2019 - Feb 2021)<br />*Amazon Web Services*
-- A100 Certified Full Stack Web Developer
-<br />*Apprentice 100, IndieSoft Inc.*
+- Cyber Forensics and Incidence Response Certification (pursuing) - **Carnegie Mellon University**
+- AWS Certified Solutions Architect (Feb 2019 - Feb 2021) - **Amazon Web Services**
+- A100 Certified Full Stack Web Developer - **Apprentice 100, IndieSoft Inc.**
 
 ### PROJECTS
 **Secure Cloud Biometric Authentication**
