@@ -1,15 +1,19 @@
+---
+layout: post
+title:  "Leetcode 70 - Climbing Stairs (Easy)"
+date:   2021-01-21 21:03:36 -0500
+categories: Programming-Problems Leetcode Dynamic-Programming DP Stairs Climbing-Stairs Easy
+---
 
-70. Climbing Stairs
-Easy
+70. Climbing Stairs (Easy)
 
 You are climbing a staircase. It takes n steps to reach the top.
-
 Each time you can either climb 1 or 2 steps. In how many distinct ways can you climb to the top?
 
 https://leetcode.com/problems/climbing-stairs/
 
 
-```python
+```python 
 class Solution: 
     memo = [
     l = 3
@@ -28,10 +32,13 @@ class Solution:
         self.memo[n] = ways
         return ways
 ```
-Runtime: 53 ms, faster than 5.40% of Python3 online submissions for Climbing Stairs.
-Memory Usage: 14.2 MB, less than 72.66% of Python3 online submissions for Climbing Stairs.
+### Evaluation:
+5:72
 
-### Re-evaluation
+* This code is having to make function calls repeatedly. Thus, it suffers from overhead of function calling.
+* It also has a quite a few conditionals
+
+The following re-attempt did not outperform the above code becuase of the same function calling overhead.
 ```python
 class Solution:
     
@@ -51,10 +58,10 @@ class Solution:
         self.memo[n] = ways
         return ways
 ```
-Shorter but same evaluation result
 
 ### Just calculate all at once
-Given result
+Instead of repeatedly calling the function in a recursive way, we can just implement the loop and calculate the values without conditionals.
+
 ```python
 class Solution:    
     def climbStairs(self, n: int) -> int:
@@ -64,6 +71,9 @@ class Solution:
             memo.append(memo[i-1]+memo[i-2])
         return memo[-1]
 ```
-Runtime: 24 ms, faster than 94.68% of Python3 online submissions for Climbing Stairs.
-Memory Usage: 14 MB, less than 91.11% of Python3 online submissions for Climbing Stairs.
+**Result: 94:91**
+
+Runtime: 24 ms, faster than **94.68%** of Python3 online submissions for Climbing Stairs.
+
+Memory Usage: 14 MB, less than **91.11%** of Python3 online submissions for Climbing Stairs.
 
