@@ -12,8 +12,9 @@ categories: AWS IAM IaC
 * Max 10 groups per user
 * Are Global within organization/account ID
 * `DENY` trumps any `allow`
-> EXAMPLE 
-```JSON
+> EXAMPLE
+ 
+```json
 {
     "Version": "2012-10-17",
     "Statement": [
