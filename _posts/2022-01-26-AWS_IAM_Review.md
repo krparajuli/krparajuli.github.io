@@ -5,17 +5,16 @@ date:   2021-01-23 21:03:36 -0500
 categories: AWS IAM IaC
 ---
 # AWS IAM
-All details and code taken from AWS IAM documnetation page.
-[https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html](https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html)
+All details and code taken from [AWS IAM documentation page](https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html). You can  test all your IAM policies usin [IAM Policy Simulator](https://policysim.aws.amazon.com/).
 
 ## USERS AND GROUPS
 * Max 5000 users per organization/account
 * Max 10 groups per user
 * Are Global within organization/account ID
 * `DENY` trumps any `allow`
-> EXAMPLE
  
 ```json
+// Example
 {
     "Version": "2012-10-17",
     "Statement": [
@@ -37,26 +36,6 @@ All details and code taken from AWS IAM documnetation page.
                 "iam:GetAccountPasswordPolicy"
             ],
             "Resource": "*"
-        },
-        {
-            "Sid": "AllowManageOwnPasswordAndAccessKeys",
-            "Effect": "Allow",
-            "Action": [
-                "iam:*AccessKey*",
-                "iam:ChangePassword",
-                "iam:GetUser",
-                "iam:*LoginProfile*"
-            ],
-            "Resource": ["arn:aws:iam::*:user/${aws:username}"]
-        },
-        {
-            "Sid": "DenyS3Logs",
-            "Effect": "Deny",
-            "Action": "s3:*",
-            "Resource": [
-                "arn:aws:s3:::logs",
-                "arn:aws:s3:::logs/*"
-            ]
         },
         {
             "Sid": "DenyEC2Production",
@@ -127,4 +106,14 @@ All details and code taken from AWS IAM documnetation page.
 * Create separate policy for assuming different role for security
 * `EXTERNAL ID` can be required
 
+## AWS ORGANIZATION
+* Different for IAM
+* Helps manage and group accounts within an organization in Organizational Units (OU) using *Service Control Policy*
+* *DENY SOME* and *ALLOW ALL ELSE* policies makes more sense - since an account may need ton of accesses that needs to be allowed
+* AWS Organization can control *root* of other accounts
 
+## POLICY EVALUATION LOGIC
+Refer to the chart below.
+![AWS Policy Evluation Chart](https://docs.aws.amazon.com/IAM/latest/UserGuide/images/PolicyEvaluationHorizontal111621.png). The policy evaluation page has more details. 
+
+Have fun architecting!!!
