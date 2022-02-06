@@ -4,7 +4,6 @@ title:  "AWS IAM Quick Review"
 date:   2021-01-23 21:03:36 -0500
 categories: AWS IAM IaC
 ---
-# AWS IAM
 All details and code taken from [AWS IAM documentation page](https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html). You can  test all your IAM policies usin [IAM Policy Simulator](https://policysim.aws.amazon.com/).
 
 ## USERS AND GROUPS
