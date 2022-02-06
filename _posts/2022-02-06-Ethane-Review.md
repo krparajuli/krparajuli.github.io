@@ -5,10 +5,10 @@ date:   2022-02-05 21:03:36 -0500
 categories: Ethane Network-Architecture Paper-Review SDN
 ---
 
-> **BRIEF OVERVIEW OF ETHANE** 
-> Ethane: Network Architecture for the enterprise
-> Define single network0wide fine-grain policy and enforces it
-> Extremely Simple Flow-Based Ethernet Switches and Centralized controller to manage the admittance and routing of flows
+> **BRIEF OVERVIEW OF ETHANE** <br />
+> Ethane: Network Architecture for the enterprise <br />
+> Define single network0wide fine-grain policy and enforces it <br />
+> Extremely Simple Flow-Based Ethernet Switches and Centralized controller to manage the admittance and routing of flows<br />
 > Backwards-compatible
 
 # Introduction
