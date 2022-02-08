@@ -1,12 +1,11 @@
 ---
-layout: default
+layout: home
 ---
 
 {%- if page.title -%}
   <h1 class="page-heading">{{ page.title }}</h1>
 {%- endif -%}
 
-{{ content }}
 
 {%- if site.posts.size > 0 -%}
   <ul class="posts">
