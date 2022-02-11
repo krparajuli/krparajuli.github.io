@@ -2,7 +2,7 @@
 layout: post
 title:  "AWS Cloudwatch Review"
 date:   2021-02-01 21:03:36 -0500
-categories: AWS IAM IaC
+categories: AWS IaC CloudWatch
 ---
 
 > ### Brief Explanation of Amazon Config
