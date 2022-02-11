@@ -23,15 +23,15 @@ TLS is the secure alternative/descendant of SSL which was developed by Netscape 
 
 ## TLS Handshaking protocol
 TLS has three subprotocols that are used to allow peers to agree upon security parameters for the record layer, to authenticate themselves, to instantiate negotiated security parameters, and to report error conditions to each other. It is responsible for negotaiating a session consisting of following. [RFC link](https://datatracker.ietf.org/doc/html/rfc5246#section-7)
-1) **Session Identifier**: Arbitrary byte sequence - for active or resumable session state
-2) **Peer Certificate**: x509v3 Certificate - may be null
-3) **Compression Method**: Algorithm for compression prior to encryption
-4) **Cipher Spec**: Pseudorandom function user to generate keying material
-   1) Bulk data encryption algorithm like null, AES,etc.
-   2) Mac algorithm like HMAC-SHA1,etc.
-   3) Cryptographic attributes like *mac_length*
-5) **Master Secret**: 48-byte (352-bit) secret share between client and server
-6) **is_resumable flag**: Flag to indicate if the session can be used to initiate new connections
+1. **Session Identifier**: Arbitrary byte sequence - for active or resumable session state
+2. **Peer Certificate**: x509v3 Certificate - may be null
+3. **Compression Method**: Algorithm for compression prior to encryption
+4. **Cipher Spec**: Pseudorandom function user to generate keying material
+   1. Bulk data encryption algorithm like null, AES,etc.
+   2. Mac algorithm like HMAC-SHA1,etc.
+   3. Cryptographic attributes like *mac_length*
+5. **Master Secret**: 48-byte (352-bit) secret share between client and server
+6. **is_resumable flag**: Flag to indicate if the session can be used to initiate new connections
 
 ### TLS Handshake Elements and Flow
 1. **Hello message**: Exchange hello messages to agree on algorithms, exchange random values, and check for session resumption
