@@ -6,7 +6,15 @@ categories: TLS HTTPS SSL TLS-Handshake
 ---
 TLS is the secure alternative/descendant of SSL which was developed by Netscape to secure internet connections. SSLv1.0 was extremely flawed and never released. However, later versions were widely adopted. In late 2014, Google discovered major flaw in SSLv3.0 which led to development of TLS. Although envisioned as a SSL upgrade,TLSv1.0 was significantly different from SSL but had option to fall back on SSLv3.0
 
-### TLSv1.2
+### Contents
+- [TLSv1.2](#tlsv12)
+- [TLS Handshaking protocol](#tls-handshaking-protocol)
+  - [TLS Handshake Elements and Flow](#tls-handshake-elements-and-flow)
+  - [Hello Messages](#hello-messages)
+  - [Closure and Error Alerts](#closure-and-error-alerts)
+- [Reference](#reference)
+
+## TLSv1.2
 * Higher performance and Improved reliability
 * Added increased authentication and TLS extensions and AES cipher suites
   * Replaced MD5/SHA-1 combination in the digitally signed element in a single hash
@@ -63,16 +71,10 @@ Message flow for a full handshake. (\*) Indicates optional or situation-dependen
 |*compression_methods*: Supported by client and listed in order of preference|*compression_method*: Agreed with client|
 |*extensions*: Request for extended functionality from server|*extensions*: List of of extensions|
 
-
 ### Closure and Error Alerts
 * Clousure Alert: *close_notify*; Either party can initiate it
 * Error Alerts: unexpected_message, bad_record_mac, decryption_failed_RESERVED, record_overflow, decompression_failure, handshake_failure, no_certificate_RESERVED, bad_certificate, unsupported_certificate, certificate_revoked, etc.
-  
-
-
-
 
 ## Reference
 * [TLSv1.2 RFC (https://datatracker.ietf.org/doc/html/rfc5246#section-7)](https://datatracker.ietf.org/doc/html/rfc5246#section-7)
-* [https://blog.gigamon.com/2019/09/06/gigamons-guide-to-communications-security-what-is-ssl-tls-and-https/](https://blog.gigamon.com/2019/09/06/gigamons-guide-to-communications-security-what-is-ssl-tls-and-https/)
-* 
+* [https://blog.gigamon.com/2019/09/06/gigamons-guide-to-communications-security-what-is-ssl-tls-and-https/](https://blog.gigamon.com/2019/09/06/gigamons-guide-to-communications-security-what-is-ssl-tls-and-https/) 
