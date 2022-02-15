@@ -60,6 +60,7 @@ I am root
 ### WHILE loop
 * **While** loop uses `while ....; do ...... done` format
 * Example script that counts lines in a file
+
 ```sh
 counter = 0
 while read line; do
@@ -69,6 +70,7 @@ done
 ### FOR loop
 * **For** loop has similar structure as while loop
 * Some examples:
+
 ```sh
 for script in *.sh; do
     cat $script > newfile.txt
