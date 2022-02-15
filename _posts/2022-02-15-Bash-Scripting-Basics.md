@@ -69,12 +69,13 @@ done
 ### FOR loop
 * **For** loop has similar structure as while loop
 * Some examples:
-```bash
+```sh
 for script in *.sh; do
     cat $script > newfile.txt
 done
 ```
-```bash
+
+```sh
 #!/bin/sh
 # Backup Script to backup all 
 
@@ -85,6 +86,7 @@ for script in *.sh; do # *.sh wil automatically list all .sh files like ls does
     cp -p $script $newname
 done
 ```
+
 * `for x in Y` structure is not required if `Y` is a list
   * One can do `for Y; do ... done`
 
