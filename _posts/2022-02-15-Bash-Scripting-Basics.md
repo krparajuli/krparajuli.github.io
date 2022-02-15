@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Very Basic Bash Scripting"
-date:   2022-02-15 21:03:36 -0500
+date:   2022-02-15 15:03:36 -0500
 categories: Bash Scripting Basic
 ---
 This is a very short basic description on Bash scripting - compiled from a book and various online sources. Refer to the reference section for a full reading/understanding.
