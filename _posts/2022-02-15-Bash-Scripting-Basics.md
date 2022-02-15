@@ -17,7 +17,7 @@ This is a very short basic description on Bash scripting - compiled from a book 
   - [FOR loop](#for-loop)
   - [Boolean Operators](#boolean-operators)
     - [Numeric and String Operators](#numeric-and-string-operators)
-    - [File Evaluation Structure](#file-evaluation-structure)
+    - [File Evaluation Operators](#file-evaluation-operators)
 - [PARENTHESES () and []](#parentheses--and-)
 - [References](#references)
 ## VARIABLES AND QUOTING
@@ -92,6 +92,7 @@ done
 
 ### Boolean Operators
 #### Numeric and String Operators
+
 |Numeric Condition| String Condition |Meaning|
 |-|-|-|
 |x -eq y |x = y |Equal |
@@ -102,7 +103,8 @@ done
 |x -ge y | N/A| Greater Or Eual|
 |N/A | -n x | Is Not Null|
 |N/A| -z x| Is Null|
-#### File Evaluation Structure
+#### File Evaluation Operators
+
 |Operator|Meaning|
 |-|-|
 |-e file| file **e**xists|
@@ -115,7 +117,7 @@ done
 |file1 -ot file2| file1 is older than file2|
 
 ## PARENTHESES () and []
-  * `[]` act as a shorthand of test command
+* `[]` act as a shorthand of test command
   ```sh
   $ [ -f /etc/rc.local ] && echo "real file"
   real file
@@ -125,23 +127,30 @@ done
   $ test -f /etc/rc.local && echo "real file"
   real file
   ```
+
 * No WordSplitting or glob expansion will be done for [[ (and therefore many arguments need not be quoted)[4]:
+
 ```sh
  file="file name"
  [[ -f $file ]] && echo "$file is a regular file"
 ```
+
 will work even though $file is not quoted and contains whitespace. With [ the variable needs to be quoted:
+
 ```sh
  file="file name"
  [ -f "$file" ] && echo "$file is a regular file"
 ```
+
 This makes [[ easier to use and less error-prone.
 
 Parentheses in [[ do not need to be escaped:
+
 ```sh
  [[ -f $file1 && ( -d $dir1 || -d $dir2 ) ]]
  [ -f "$file1" -a \( -d "$dir1" -o -d "$dir2" \) ]
 ```
+
 * Arithmetic **expansion** allows the evaluation of an arithmetic expression and the substitution of the result.
 The format for arithmetic expansion is: `$(( expression ))`
 * The format for a simple Arithmetic **Evaluation** is: `(( expression ))`
