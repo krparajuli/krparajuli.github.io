@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Very Basic Bash Scripting"
-date:   2022-02-05 21:03:36 -0500
+date:   2022-02-15 21:03:36 -0500
 categories: Bash Scripting Basic
 ---
 
