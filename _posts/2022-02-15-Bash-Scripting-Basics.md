@@ -140,9 +140,9 @@ Parentheses in [[ do not need to be escaped:
  [[ -f $file1 && ( -d $dir1 || -d $dir2 ) ]]
  [ -f "$file1" -a \( -d "$dir1" -o -d "$dir2" \) ]
 ```
-* Arithmetic expansion allows the evaluation of an arithmetic expression and the substitution of the result.
+* Arithmetic **expansion** allows the evaluation of an arithmetic expression and the substitution of the result.
 The format for arithmetic expansion is: `$(( expression ))`
-*The format for a simple Arithmetic Evaluation is: `(( expression ))`
+* The format for a simple Arithmetic **Evaluation** is: `(( expression ))`
 * The expression is treated as if it were within double quotes, but a double quote inside the parentheses is not treated specially. All tokens in the expression undergo parameter expansion, command substitution, and quote removal. Arithmetic substitutions can be nested. [5]
 
 ## References
