@@ -8,7 +8,7 @@ categories: AWS IAM Principal Security Identity-Access Summary
 `Principal` is a Resource-based policy element in AWS to specify whether an entity is allowed or denied access to a resource. This means that it can be a part of the policy of a resource like S3 or RDS but not of entities like users, groups, etc. Likewise, in IAM roles, `Principal` element tells who can assume the role and who cannot.
 
 ### How to use it
-You can specify the a pringiple Amazon Resource Name (ARN) in the `aws:PrincipalArn` condition key.
+You can specify a principle Amazon Resource Name (ARN) in the `aws:PrincipalArn` condition key.
 
 In cross-account access, the 12-digit identidier of the trusted account must be specified (as shown below). You can specify principal using identifiers or canonical user identifier.
 ```JSON
@@ -67,7 +67,8 @@ An AWS STS federated user session principal is a session principal that results 
 ```JSON
 "Principal": { "AWS": "arn:aws:sts::AWS-account-ID:federated-user/user-name" }
 ```
-### AWS service principals
+
+#### AWS service principals
 You can specify AWS services in the Principal element of a resource-based policy or in condition keys that support principals. A service principal is an identifier for a service.
 
 IAM roles that can be assumed by an AWS service are called service roles. Service roles must include a trust policy. Trust policies are resource-based policies attached to a role that defines which principals can assume the role. Some service roles have predefined trust policies. However, in some cases, you must specify the service principal in the trust policy.
