@@ -9,4 +9,4 @@ Feel free to contact me at
 [kalyanrparajuli@gmail.com](mailto:kalyanrparajuli@gmail.com) or [krparajuli@cmu.edu](mailto:krparajuli@cmu.edu).
 
 ### Current Github Contribution Graph
-<img src="https://ghchart.rshah.org/krparajul" alt="krparajuli's Github chart" />
+<img src="https://ghchart.rshah.org/krparajuli" alt="krparajuli's Github chart" />
