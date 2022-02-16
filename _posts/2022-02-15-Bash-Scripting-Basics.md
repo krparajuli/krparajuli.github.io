@@ -105,6 +105,7 @@ done
 |x -ge y | N/A| Greater Or Eual|
 |N/A | -n x | Is Not Null|
 |N/A| -z x| Is Null|
+
 #### File Evaluation Operators
 
 |Operator|Meaning|
@@ -132,31 +133,40 @@ done
 
 * No WordSplitting or glob expansion will be done for [[ (and therefore many arguments need not be quoted)[4]:
 
-```sh
- file="file name"
- [[ -f $file ]] && echo "$file is a regular file"
-```
+  ```sh
+  file="file name"
+  [[ -f $file ]] && echo "$file is a regular file"
+  ```
 
-will work even though $file is not quoted and contains whitespace. With [ the variable needs to be quoted:
+  will work even though $file is not quoted and contains whitespace. With [ the variable needs to be quoted:
 
-```sh
- file="file name"
- [ -f "$file" ] && echo "$file is a regular file"
-```
+  ```sh
+  file="file name"
+  [ -f "$file" ] && echo "$file is a regular file"
+  ```
 
-This makes [[ easier to use and less error-prone.
+  This makes [[ easier to use and less error-prone.
 
-Parentheses in [[ do not need to be escaped:
+  Parentheses in [[ do not need to be escaped:
 
-```sh
- [[ -f $file1 && ( -d $dir1 || -d $dir2 ) ]]
- [ -f "$file1" -a \( -d "$dir1" -o -d "$dir2" \) ]
-```
+  ```sh
+  [[ -f $file1 && ( -d $dir1 || -d $dir2 ) ]]
+  [ -f "$file1" -a \( -d "$dir1" -o -d "$dir2" \) ]
+  ```
 
+#### Arithmetic Expansion
 * Arithmetic **expansion** allows the evaluation of an arithmetic expression and the substitution of the result.
 The format for arithmetic expansion is: `$(( expression ))`
 * The format for a simple Arithmetic **Evaluation** is: `(( expression ))`
 * The expression is treated as if it were within double quotes, but a double quote inside the parentheses is not treated specially. All tokens in the expression undergo parameter expansion, command substitution, and quote removal. Arithmetic substitutions can be nested. [5]
+
+## echo and printf
+* Echo prints as-is without formatting while printf does formatting based on the string.
+* `prompt> echo "asd\n"` gives out `asd\n`
+* `prompt> printf "asd\n"` prints `asd` and then gives a newline  
+  ```asd
+
+  ```
 
 ## References
 1. Unix and System Administration Handboox, *Fifth Edition* 
