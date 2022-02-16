@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Very Basic Bash Scripting"
+title:  "Very Basic Bash Scripting Guide"
 date:   2022-02-15 15:03:36 -0500
 categories: Bash Scripting Basic
 ---
@@ -19,6 +19,8 @@ This is a very short basic description on Bash scripting - compiled from a book 
     - [Numeric and String Operators](#numeric-and-string-operators)
     - [File Evaluation Operators](#file-evaluation-operators)
 - [PARENTHESES () and []](#parentheses--and-)
+    - [Arithmetic Expansion](#arithmetic-expansion)
+- [echo and printf](#echo-and-printf)
 - [References](#references)
 ## VARIABLES AND QUOTING
 In shell, variables are declared like `prompt> etcdir='/etc'`. Few things of note:
@@ -164,7 +166,8 @@ The format for arithmetic expansion is: `$(( expression ))`
 * Echo prints as-is without formatting while printf does formatting based on the string.
 * `prompt> echo "asd\n"` gives out `asd\n`
 * `prompt> printf "asd\n"` prints `asd` and then gives a newline  
-  ```asd
+  ```
+  asd
 
   ```
 

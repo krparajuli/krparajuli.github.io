@@ -8,5 +8,5 @@ I am an inquisitive and enthusiastic engineer currently doing my Masters in Info
 Feel free to contact me at
 [kalyanrparajuli@gmail.com](mailto:kalyanrparajuli@gmail.com) or [krparajuli@cmu.edu](mailto:krparajuli@cmu.edu).
 
-### Current Github Contribution Graph
+### My Current Github Contribution Graph
 ![](https://ghchart.rshah.org/krparajuli)
