@@ -164,13 +164,14 @@ The format for arithmetic expansion is: `$(( expression ))`
 
 ## echo and printf
 * Echo prints as-is without formatting while printf does formatting based on the string.
-* `prompt> echo "asd\n"` gives out `asd\n`
-* `prompt> printf "asd\n"` prints `asd` and then gives a newline  
-  ```
-  asd
 
-  ```
+```sh
+$ echo "\ta\tsd\n" 
+\ta\sd\n
+$ printf "\t\a\sd\n"
+  a sd
 
+```
 ## References
 1. Unix and System Administration Handboox, *Fifth Edition* 
 2. https://unix.stackexchange.com/questions/99185/what-do-square-brackets-mean-without-the-if-on-the-left
