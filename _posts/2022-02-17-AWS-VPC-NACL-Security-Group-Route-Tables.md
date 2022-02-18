@@ -54,7 +54,8 @@ NACL Inbound and Outbound rules example
 ## Route Tables
 Route Tables work as a route table in conventional routers. In conventional routers, route tables are used to direct traffic from router to hosts.
 
-![]({{ "/assets/post-images//AWS-Routes.png" | relative_url }}
+![]({{ "/assets/post-images//AWS-Routes.png" | relative_url }})
+
 Sample routes table from [Riverbed Guide](https://support.riverbed.com/bin/support/static/bk3e4nsvev67aokj3qg5gtcfv4/html/ulhrppo7aoojclf7jbgjnlji07/scm_dg_html/index.html#page/scm_dg_html/aws_cloud_topology.html)
 
 ## WAF
