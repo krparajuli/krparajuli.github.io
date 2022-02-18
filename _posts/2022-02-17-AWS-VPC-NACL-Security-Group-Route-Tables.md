@@ -16,7 +16,7 @@ AWS VPC has multiple items that allows for control of traffic to and from variou
 
 
 ## Layout
-![]({{ "/assets/post-images//AWS-Security-Groups-NACL-Route-Tables.png" | relative_url }})
+![]({{ "/assets/post-images/AWS-Security-Groups-NACL-Route-Tables.png" | relative_url }})
 
 [Image Credits: Ashish Patel](https://medium.com/awesome-cloud/aws-difference-between-security-groups-and-network-acls-adc632ea29ae)
 
@@ -38,16 +38,17 @@ The above table was summarized from a [medium post](https://medium.com/awesome-c
 * NACL can only allow/block packets based on IP and port. Since they are stateless, you MUST create rules to allow return traffic.
 * SG can allow/disallow traffic based on either the IP address/port packets are coming from, or more interestingly, based on the security group attached to the instance the packets are coming from.
 
-![]({{ "/assets/post-images//SG-rules.png" | relative_url }})
+![]({{ "/assets/post-images/SG-rules.png" | relative_url }})
 Security Rules Example
 
 --------
 
-![]({{ "/assets/post-images//NACL-Inbound.png" | relative_url }}
+![]({{ "/assets/post-images/NACL-Inbound.png" | relative_url }})
 
 ------------
 
-![]({{ "/assets/post-images//NACL-Outbound.png" | relative_url }}
+![]({{ "/assets/post-images/NACL-Outbound.png" | relative_url }})
+
 NACL Inbound and Outbound rules example
 
 ## Route Tables
