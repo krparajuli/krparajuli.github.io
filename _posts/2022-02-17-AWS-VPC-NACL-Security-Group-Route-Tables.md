@@ -14,13 +14,15 @@ AWS VPC has multiple items that allows for control of traffic to and from variou
 - [WAF](#waf)
 - [References](#references)
 
+
 ## Layout
-![](resources/AWS-Security-Groups-NACL-Route-Tables.png)
+![]({{ "/_posts/resources/AWS-Security-Groups-NACL-Route-Tables.png" | relative_url }})
 
 [Image Credits: Ashish Patel](https://medium.com/awesome-cloud/aws-difference-between-security-groups-and-network-acls-adc632ea29ae)
 
 ## Security Group and NACL
 Both Security Group and NACL act as a firewall in AWS. Below is a comparison of these two.
+
 ||Security Group|NACL|
 |-|-|-|
 |**Action Realm**|Specific Instances or Load Balancers|Subnets|
@@ -36,27 +38,27 @@ The above table was summarized from a [medium post](https://medium.com/awesome-c
 * NACL can only allow/block packets based on IP and port. Since they are stateless, you MUST create rules to allow return traffic.
 * SG can allow/disallow traffic based on either the IP address/port packets are coming from, or more interestingly, based on the security group attached to the instance the packets are coming from.
 
-![](resources/SG-rules.png)
+![]({{ "/_posts/resources/SG-rules.png" | relative_url }})
 Security Rules Example
 
 --------
 
-![](resources/NACL-Inbound.png)
+![]({{ "/_posts/resources/NACL-Inbound.png" | relative_url }}
 
 ------------
 
-![](resources/NACL-Outbound.png)
+![]({{ "/_posts/resources/NACL-Outbound.png" | relative_url }}
 NACL Inbound and Outbound rules example
 
 ## Route Tables
 Route Tables work as a route table in conventional routers. In conventional routers, route tables are used to direct traffic from router to hosts. 
-![](resources/AWS-Routes.png)
+![]({{ "/_posts/resources/AWS-Routes.png" | relative_url }}
 Sample routes table from [Riverbed Guide](https://support.riverbed.com/bin/support/static/bk3e4nsvev67aokj3qg5gtcfv4/html/ulhrppo7aoojclf7jbgjnlji07/scm_dg_html/index.html#page/scm_dg_html/aws_cloud_topology.html)
 
 ## WAF
 Web-Application Firewall work on Application Layer and can filter traffic based on countries.In AWS, WAF can attach to load balancers to do more complex types of filtering, like disallowing traffic from certain countries. AWS WAF lets you create rules to filter web traffic based on conditions that include IP addresses, HTTP headers and body, or custom URIs. WAF makes it easy to create rules that block common web exploits like SQL injection and cross site scripting.[5](https://aws.amazon.com/waf/features/)
 
-![](resources/AWS-WAF.png)
+![]({{ "/_posts/resources/AWS-WAF.png" | relative_url }}
 AWS WAF in action
 
 

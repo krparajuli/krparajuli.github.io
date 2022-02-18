@@ -8,7 +8,7 @@ heading {
 }
 </style>
 
-[Download PDF here]({{ "/Kalyan Parajuli.pdf" | relative_url }} )
+[Download PDF here]({{ "/Kalyan Parajuli.pdf" | relative_url }})
 
 <i class="fa fa-envelope" aria-hidden="true"> [kalyanrparajuli@gmail.com](mailto:kalyanrparajuli@gmail.com)</i>
 <br />
