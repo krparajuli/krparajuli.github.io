@@ -112,7 +112,17 @@ All details and code taken from [AWS IAM documentation page](https://docs.aws.am
 * AWS Organization can control *root* of other accounts
 
 ## POLICY EVALUATION LOGIC
+Following is the order of evaluation of AWS Policy Logic.
+1. Start with Deny
+2. Gather all application policies and Evaluate. DENY if there is EXPLICIT DENY.
+3. Check for Organizational SCP (Service Control Policy). DENY if there is NO EXPLICIT ALLOW.
+4. Check for Resource based policy. ALLOW if there is ALLOW.
+5. Check for principal based policy. DENY if NO POLICY or NO EXPLICIT ALLOW.
+6. Check for permission boundary.
+7. Check for sessions and sessions policy.
+
 Refer to the chart below.
-![AWS Policy Evluation Chart](https://docs.aws.amazon.com/IAM/latest/UserGuide/images/PolicyEvaluationHorizontal111621.png). The policy evaluation page has more details. 
+
+![AWS Policy Evluation Chart](https://docs.aws.amazon.com/IAM/latest/UserGuide/images/PolicyEvaluationHorizontal111621.png) The policy evaluation page has more details. 
 
 Have fun architecting!!!
