@@ -2,7 +2,7 @@
 layout: post
 title:  "AWS Security-Group, NACL, Route-Tables, WAF"
 date:   2022-02-17 20:00:00 -0500
-categories:  Samba vfs_fruit 9+ 9.8+
+categories:  AWS VPC NACL SG Security-Group WAF
 ---
 AWS VPC has multiple items that allows for control of traffic to and from various entities: namely Security-Groups, NACLs, Route-Tables, and WAF. This page is a compilation of information regarding them from various sources.
 ### Contents
