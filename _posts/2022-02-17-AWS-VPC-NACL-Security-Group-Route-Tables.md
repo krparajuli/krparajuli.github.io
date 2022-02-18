@@ -61,7 +61,8 @@ Sample routes table from [Riverbed Guide](https://support.riverbed.com/bin/suppo
 ## WAF
 Web-Application Firewall work on Application Layer and can filter traffic based on countries.In AWS, WAF can attach to load balancers to do more complex types of filtering, like disallowing traffic from certain countries. AWS WAF lets you create rules to filter web traffic based on conditions that include IP addresses, HTTP headers and body, or custom URIs. WAF makes it easy to create rules that block common web exploits like SQL injection and cross site scripting.[5](https://aws.amazon.com/waf/features/)
 
-![]({{ "/assets/post-images//AWS-WAF.png" | relative_url }}
+![]({{ "/assets/post-images//AWS-WAF.png" | relative_url }})
+
 AWS WAF in action
 
 
