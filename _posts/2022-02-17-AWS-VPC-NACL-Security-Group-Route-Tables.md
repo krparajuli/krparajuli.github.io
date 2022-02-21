@@ -36,6 +36,8 @@ The above table was summarized from a [medium post](https://medium.com/awesome-c
 
 ### Some Notes
 * NACL can only allow/block packets based on IP and port. Since they are stateless, you MUST create rules to allow return traffic.
+  * Every rule has a number associated with it. This number indicates the order of rules to be applied.
+  * Every NACL has a rule with number as asterisk (*). This rule can not be modified. If there is no match then this rule is applied..
 * SG can allow/disallow traffic based on either the IP address/port packets are coming from, or more interestingly, based on the security group attached to the instance the packets are coming from.
 
 ![]({{ "/assets/post-images/SG-rules.png" | relative_url }})
