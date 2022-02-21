@@ -80,6 +80,7 @@ All details and code taken from [AWS IAM documentation page](https://docs.aws.am
 * Use `sts:AssumeRole`
   * Allows for multi account access roles as roles have account id included in the policy
   * NOTICE `111111111111` account ID in sample policy below
+
 ```json
 {
     "Version": "2012-10-17",
