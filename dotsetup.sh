@@ -19,9 +19,9 @@ python2 -m pip install --upgrade pip
 ! [ -d "~/MyApplications" ] && mkdir ~/MyApplications
 cd ~/MyApplications
 ! [ -d "~/MyApplications/dotfiles" ] && \
-git clone https://github.com/kpbeta/dots dotfiles
+git clone https://github.com/kpbeta/dotfiles.git
 [ -d "~/MyApplications/dotfiles" ] && cd ~/MyApplications/dotfiles && \
-git clone git@github.com:kpbeta/dotsfiles.git
+git pull origin main
 
 # Ansible get playbook
 ansible-galaxy collection install community.general
