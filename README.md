@@ -1,3 +1,3 @@
 # krparajuli.github.io
 
-Personal website of krparajuli.com
+Personal website @ krparajuli.com
