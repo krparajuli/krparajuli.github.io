@@ -5,8 +5,8 @@ navbar_entries:
   - title: blog
     url: blog
 
-  - title: website
-    url: https://www.abhinav.co
+  - title: notion site
+    url: https://krparajuli.notion.site
 
 project_entries:
   - title: Project 1
@@ -54,14 +54,14 @@ old_project_entries:
     desc: The better people know you, the better they collaborate
 
 footer_entries:
-  - title: abhinav's homepage
-    url: https://www.abhinav.co
+  - title: Notion Site
+    url: https://krparajuli.notion.site
 
   - title: twitter
-    url: https://twitter.com/abhinav
+    url: https://x.com/entropiqor
 
   - title: github
-    url: https://github.com/abhinavs
+    url: https://github.com/krparajuli
 
   - title: feed
     url: feed.xml
