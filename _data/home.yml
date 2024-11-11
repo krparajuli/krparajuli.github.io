@@ -2,11 +2,11 @@ navbar_entries:
   - title: "[About]"
     url: about
 
-  - title: "[KalSec - Notion Site]"
-    url: https://kalsec.notion.site
-
-  - title: "[Open Threat Intelligence]"
+  - title: "[My Open Threat Intelligence]"
     url: threat_intel
+
+  - title: "[KalSec - My Notion Site]"
+    url: https://kalsec.notion.site
 
 ti_entries:
   - title: OpenCTI
