@@ -1,0 +1,7 @@
+ti_entries:
+  - title: OpenCTI
+    url: opencti.krparajuli.com
+    description: OpenCTI is an open source platform allowing organizations to manage their cyber threat intelligence knowledge and observables. It has been created in order to structure, store, organize and visualize technical and non-technical information about cyber threats.
+    subdescription: OpenCTI is a product of the Open Cyber Threat Intelligence Platform Project, an open source project that aims to provide a solid foundation for a complete threat intelligence platform.
+  - title: "[KalSec - Notion Site]"
+    url: https://kalsec.notion.site

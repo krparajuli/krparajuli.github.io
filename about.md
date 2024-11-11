@@ -12,6 +12,6 @@ and mentor students at my alma mater and in my hometown in Nepal in the field of
 
 STRENGTHS:
 --------
-* Automation
+* Security Automation
 * Security Protocols
 * Communication Skills

@@ -1,10 +1,13 @@
 <ul class="horizontal-list">
+  <h4> {{ item.title }} </h4>
   {% for item in include.collection %}
     <li>
       <a href="{{ item.url }}">
         {{ item.title }}
       </a>
       &nbsp;&nbsp;
+      {{ item.description}}
+      {{ item.subdescription }}
     </li>
   {% endfor %}
 </ul>
