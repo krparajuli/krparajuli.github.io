@@ -13,7 +13,7 @@ Following are the readonly user credentials. If you encounter overly permissive 
 
 -------------------
 
-#### MIPS
+#### MISP
 [misp.krparajuli.com](https://misp.krparajuli.com)\\
 **Username:** `pbeav9kvf@mozmail.com`\\
 **Password:** `ReadOnlyGuest1!A` 
