@@ -2,7 +2,7 @@ navbar_entries:
   - title: "[About]"
     url: about
 
-  - title: "[My Open Threat Intelligence]"
+  - title: "[Open Threat Intelligence]"
     url: threat_intel
 
   - title: "[KalSec - My Notion Site]"
